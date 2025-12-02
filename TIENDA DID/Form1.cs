@@ -715,5 +715,10 @@ namespace TIENDA_DID
         {
 
         }
+
+        private void tabPage1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
