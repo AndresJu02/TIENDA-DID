@@ -97,6 +97,14 @@ namespace TIENDA_DID
 
         private async void Form1_Load(object sender, EventArgs e)
         {
+            bool enabled = await RemoteControl.IsEnabledAsync();
+            if (!enabled)
+            {
+                MessageBox.Show("Esta aplicación ha sido deshabilitada por el administrador.");
+                Application.Exit();
+                return; // muy importante para evitar que el código siga
+            }
+
             try
             {
                 // Cargas iniciales
