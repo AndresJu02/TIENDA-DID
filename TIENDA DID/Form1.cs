@@ -364,7 +364,7 @@ namespace TIENDA_DID
 
                 if (available == null || !available.Any())
                 {
-                    MessageBox.Show("No hay numeraciones disponibles para ese prefijo o verifica la disponibilidad en COMPRA RAMDOM");
+                    MessageBox.Show("No hay numeraciones disponibles para ese prefijo o verifica la disponibilidad en NUMERACIÓN RAMDOM");
                     return;
                 }
 
