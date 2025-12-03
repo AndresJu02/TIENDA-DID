@@ -221,7 +221,7 @@
             // 
             this.btnSearchPrefijos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(145)))), ((int)(((byte)(240)))));
             this.btnSearchPrefijos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSearchPrefijos.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSearchPrefijos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSearchPrefijos.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnSearchPrefijos.Location = new System.Drawing.Point(455, 86);
             this.btnSearchPrefijos.Name = "btnSearchPrefijos";
@@ -331,7 +331,7 @@
             // 
             this.btnSearchPrefijosRamdom.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(145)))), ((int)(((byte)(240)))));
             this.btnSearchPrefijosRamdom.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSearchPrefijosRamdom.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSearchPrefijosRamdom.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSearchPrefijosRamdom.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnSearchPrefijosRamdom.Location = new System.Drawing.Point(404, 66);
             this.btnSearchPrefijosRamdom.Name = "btnSearchPrefijosRamdom";
