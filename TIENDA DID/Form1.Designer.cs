@@ -77,7 +77,7 @@
             // 
             label9.AutoSize = true;
             label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            label9.Location = new System.Drawing.Point(420, 117);
+            label9.Location = new System.Drawing.Point(420, 135);
             label9.Name = "label9";
             label9.Size = new System.Drawing.Size(64, 16);
             label9.TabIndex = 21;
@@ -86,7 +86,7 @@
             // cmbCountries
             // 
             this.cmbCountries.FormattingEnabled = true;
-            this.cmbCountries.Location = new System.Drawing.Point(154, 23);
+            this.cmbCountries.Location = new System.Drawing.Point(154, 34);
             this.cmbCountries.Name = "cmbCountries";
             this.cmbCountries.Size = new System.Drawing.Size(135, 21);
             this.cmbCountries.TabIndex = 0;
@@ -95,7 +95,7 @@
             // cmbCities
             // 
             this.cmbCities.FormattingEnabled = true;
-            this.cmbCities.Location = new System.Drawing.Point(304, 23);
+            this.cmbCities.Location = new System.Drawing.Point(304, 34);
             this.cmbCities.Name = "cmbCities";
             this.cmbCities.Size = new System.Drawing.Size(123, 21);
             this.cmbCities.TabIndex = 1;
@@ -104,7 +104,7 @@
             // cmbDidTypes
             // 
             this.cmbDidTypes.FormattingEnabled = true;
-            this.cmbDidTypes.Location = new System.Drawing.Point(13, 23);
+            this.cmbDidTypes.Location = new System.Drawing.Point(13, 34);
             this.cmbDidTypes.Name = "cmbDidTypes";
             this.cmbDidTypes.Size = new System.Drawing.Size(124, 21);
             this.cmbDidTypes.TabIndex = 2;
@@ -117,7 +117,7 @@
             this.lstNumbers.ItemHeight = 16;
             this.lstNumbers.Items.AddRange(new object[] {
             "Números disponibles"});
-            this.lstNumbers.Location = new System.Drawing.Point(234, 70);
+            this.lstNumbers.Location = new System.Drawing.Point(234, 81);
             this.lstNumbers.Name = "lstNumbers";
             this.lstNumbers.Size = new System.Drawing.Size(205, 132);
             this.lstNumbers.TabIndex = 5;
@@ -129,7 +129,7 @@
             this.btnBuy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBuy.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBuy.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnBuy.Location = new System.Drawing.Point(455, 147);
+            this.btnBuy.Location = new System.Drawing.Point(455, 158);
             this.btnBuy.Name = "btnBuy";
             this.btnBuy.Size = new System.Drawing.Size(103, 28);
             this.btnBuy.TabIndex = 6;
@@ -177,7 +177,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(483, 4);
+            this.label4.Location = new System.Drawing.Point(483, 15);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(54, 16);
             this.label4.TabIndex = 12;
@@ -188,7 +188,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(30, 3);
+            this.label1.Location = new System.Drawing.Point(30, 14);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(89, 16);
             this.label1.TabIndex = 9;
@@ -199,7 +199,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(337, 3);
+            this.label3.Location = new System.Drawing.Point(337, 14);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(53, 16);
             this.label3.TabIndex = 11;
@@ -210,7 +210,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(205, 4);
+            this.label2.Location = new System.Drawing.Point(205, 15);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(37, 16);
             this.label2.TabIndex = 10;
@@ -223,7 +223,7 @@
             this.btnSearchPrefijos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSearchPrefijos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSearchPrefijos.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnSearchPrefijos.Location = new System.Drawing.Point(455, 86);
+            this.btnSearchPrefijos.Location = new System.Drawing.Point(455, 97);
             this.btnSearchPrefijos.Name = "btnSearchPrefijos";
             this.btnSearchPrefijos.Size = new System.Drawing.Size(103, 26);
             this.btnSearchPrefijos.TabIndex = 8;
@@ -238,7 +238,7 @@
             this.LstGroups.ItemHeight = 16;
             this.LstGroups.Items.AddRange(new object[] {
             "Prefijos disponibles"});
-            this.LstGroups.Location = new System.Drawing.Point(18, 70);
+            this.LstGroups.Location = new System.Drawing.Point(18, 81);
             this.LstGroups.Name = "LstGroups";
             this.LstGroups.Size = new System.Drawing.Size(199, 132);
             this.LstGroups.TabIndex = 7;
@@ -247,7 +247,7 @@
             // cmbRegions
             // 
             this.cmbRegions.FormattingEnabled = true;
-            this.cmbRegions.Location = new System.Drawing.Point(445, 23);
+            this.cmbRegions.Location = new System.Drawing.Point(445, 34);
             this.cmbRegions.Name = "cmbRegions";
             this.cmbRegions.Size = new System.Drawing.Size(123, 21);
             this.cmbRegions.TabIndex = 6;
@@ -282,7 +282,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(483, 4);
+            this.label8.Location = new System.Drawing.Point(483, 15);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(54, 16);
             this.label8.TabIndex = 20;
@@ -292,7 +292,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(337, 3);
+            this.label7.Location = new System.Drawing.Point(337, 14);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(53, 16);
             this.label7.TabIndex = 19;
@@ -302,7 +302,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(205, 4);
+            this.label5.Location = new System.Drawing.Point(205, 15);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(37, 16);
             this.label5.TabIndex = 18;
@@ -312,7 +312,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(30, 3);
+            this.label6.Location = new System.Drawing.Point(30, 14);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(89, 16);
             this.label6.TabIndex = 10;
@@ -321,7 +321,7 @@
             // cmbQtyRamdom
             // 
             this.cmbQtyRamdom.FormattingEnabled = true;
-            this.cmbQtyRamdom.Location = new System.Drawing.Point(487, 116);
+            this.cmbQtyRamdom.Location = new System.Drawing.Point(487, 134);
             this.cmbQtyRamdom.Name = "cmbQtyRamdom";
             this.cmbQtyRamdom.Size = new System.Drawing.Size(50, 21);
             this.cmbQtyRamdom.TabIndex = 17;
@@ -333,7 +333,7 @@
             this.btnSearchPrefijosRamdom.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSearchPrefijosRamdom.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSearchPrefijosRamdom.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnSearchPrefijosRamdom.Location = new System.Drawing.Point(404, 66);
+            this.btnSearchPrefijosRamdom.Location = new System.Drawing.Point(406, 78);
             this.btnSearchPrefijosRamdom.Name = "btnSearchPrefijosRamdom";
             this.btnSearchPrefijosRamdom.Size = new System.Drawing.Size(149, 31);
             this.btnSearchPrefijosRamdom.TabIndex = 16;
@@ -347,7 +347,7 @@
             this.btnBuyRamdom.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBuyRamdom.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBuyRamdom.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnBuyRamdom.Location = new System.Drawing.Point(406, 176);
+            this.btnBuyRamdom.Location = new System.Drawing.Point(406, 178);
             this.btnBuyRamdom.Name = "btnBuyRamdom";
             this.btnBuyRamdom.Size = new System.Drawing.Size(147, 38);
             this.btnBuyRamdom.TabIndex = 13;
@@ -363,7 +363,7 @@
             this.LstGroupsRamdom.ItemHeight = 16;
             this.LstGroupsRamdom.Items.AddRange(new object[] {
             "Prefijos disponibles"});
-            this.LstGroupsRamdom.Location = new System.Drawing.Point(25, 66);
+            this.LstGroupsRamdom.Location = new System.Drawing.Point(26, 78);
             this.LstGroupsRamdom.Name = "LstGroupsRamdom";
             this.LstGroupsRamdom.Size = new System.Drawing.Size(348, 148);
             this.LstGroupsRamdom.TabIndex = 15;
@@ -372,7 +372,7 @@
             // cmbRegionsRamdom
             // 
             this.cmbRegionsRamdom.FormattingEnabled = true;
-            this.cmbRegionsRamdom.Location = new System.Drawing.Point(445, 23);
+            this.cmbRegionsRamdom.Location = new System.Drawing.Point(445, 34);
             this.cmbRegionsRamdom.Name = "cmbRegionsRamdom";
             this.cmbRegionsRamdom.Size = new System.Drawing.Size(123, 21);
             this.cmbRegionsRamdom.TabIndex = 14;
@@ -381,7 +381,7 @@
             // cmbCountriesRamdom
             // 
             this.cmbCountriesRamdom.FormattingEnabled = true;
-            this.cmbCountriesRamdom.Location = new System.Drawing.Point(154, 23);
+            this.cmbCountriesRamdom.Location = new System.Drawing.Point(154, 34);
             this.cmbCountriesRamdom.Name = "cmbCountriesRamdom";
             this.cmbCountriesRamdom.Size = new System.Drawing.Size(135, 21);
             this.cmbCountriesRamdom.TabIndex = 9;
@@ -390,7 +390,7 @@
             // cmbCitiesRamdom
             // 
             this.cmbCitiesRamdom.FormattingEnabled = true;
-            this.cmbCitiesRamdom.Location = new System.Drawing.Point(304, 23);
+            this.cmbCitiesRamdom.Location = new System.Drawing.Point(304, 34);
             this.cmbCitiesRamdom.Name = "cmbCitiesRamdom";
             this.cmbCitiesRamdom.Size = new System.Drawing.Size(123, 21);
             this.cmbCitiesRamdom.TabIndex = 10;
@@ -399,7 +399,7 @@
             // cmbDidTypesRamdom
             // 
             this.cmbDidTypesRamdom.FormattingEnabled = true;
-            this.cmbDidTypesRamdom.Location = new System.Drawing.Point(13, 23);
+            this.cmbDidTypesRamdom.Location = new System.Drawing.Point(13, 34);
             this.cmbDidTypesRamdom.Name = "cmbDidTypesRamdom";
             this.cmbDidTypesRamdom.Size = new System.Drawing.Size(124, 21);
             this.cmbDidTypesRamdom.TabIndex = 11;
