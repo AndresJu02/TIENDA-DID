@@ -61,7 +61,7 @@
     <SignManifests>true</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>faviconDIDWW.ico</ApplicationIcon>
+    <ApplicationIcon>Gemini_Generated_Image_wuvavewuvavewuva.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
@@ -149,6 +149,7 @@
   <ItemGroup />
   <ItemGroup>
     <Content Include="faviconDIDWW.ico" />
+    <Content Include="Gemini_Generated_Image_wuvavewuvavewuva.ico" />
     <Content Include="main\status.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
