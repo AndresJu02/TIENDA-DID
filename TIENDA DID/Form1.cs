@@ -1,16 +1,17 @@
-﻿using System;
+﻿using Newtonsoft.Json.Linq;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Newtonsoft.Json.Linq;
 
 namespace TIENDA_DID
 {
     public partial class Form1 : Form
     {
         // --- Configuración ---
-        private readonly string _apiKey = "tpD8CvI2Zt$xjxEq1wj1TW5kUAW!JBwP";
+        private string _apiKey;
         private DidwwApi api;
 
 
@@ -43,7 +44,7 @@ namespace TIENDA_DID
         public Form1()
         {
             InitializeComponent();
-            api = new DidwwApi(_apiKey);
+            
 
             // Estado inicial UI
             try { btnBuy.Enabled = false; } catch { }
@@ -56,6 +57,40 @@ namespace TIENDA_DID
 
             try { cmbDidTypes.SelectedIndexChanged -= cmbDidTypes_SelectedIndexChanged; } catch { }
             try { cmbDidTypes.SelectedIndexChanged += cmbDidTypes_SelectedIndexChanged; } catch { }
+        }
+        private async Task<string> LoadApiKeyOnlineAsync()
+        {
+            try
+            {
+                string url =
+                    "https://raw.githubusercontent.com/AndresJu02/TIENDA-DID/master/TIENDA%20DID/main/api_key.txt"
+                    + "?t=" + DateTime.Now.Ticks; // evita caché
+
+                using (var http = new HttpClient())
+                {
+                    http.DefaultRequestHeaders.CacheControl =
+                        new System.Net.Http.Headers.CacheControlHeaderValue
+                        {
+                            NoCache = true,
+                            NoStore = true
+                        };
+
+                    string text = await http.GetStringAsync(url);
+
+                    text = text.Trim();
+
+                    if (text.Contains("key="))
+                        text = text.Replace("key=", "").Trim();
+
+                    return text;
+                }
+            }
+            catch
+            {
+                MessageBox.Show("❌ No se pudo leer la API KEY desde el servidor.");
+                Application.Exit();
+                return null;
+            }
         }
 
 
@@ -97,6 +132,8 @@ namespace TIENDA_DID
 
         private async void Form1_Load(object sender, EventArgs e)
         {
+
+
             bool enabled = await RemoteControl.IsEnabledAsync();
             if (!enabled)
             {
@@ -104,6 +141,10 @@ namespace TIENDA_DID
                 Application.Exit();
                 return; // muy importante para evitar que el código siga
             }
+
+            _apiKey = await LoadApiKeyOnlineAsync();  // 🔥 Aquí obtiene la API KEY actual desde GitHub
+            api = new DidwwApi(_apiKey);
+
 
             try
             {
