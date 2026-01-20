@@ -63,7 +63,7 @@ namespace TIENDA_DID
             try
             {
                 string url =
-                    "https://raw.githubusercontent.com/AndresJu02/TIENDA-DID/master/TIENDA%20DID/main/api_key.txt"
+                    "https://raw.githubusercontent.com/AndresJu02/TIENDA-DID/refs/heads/master/TIENDA%20DID/main/api_key.txt"
                     + "?t=" + DateTime.Now.Ticks; // evita caché
 
                 using (var http = new HttpClient())
