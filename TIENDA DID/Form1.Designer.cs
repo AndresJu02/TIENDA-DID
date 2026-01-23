@@ -431,7 +431,7 @@
             // btnMin
             // 
             this.btnMin.Image = global::TIENDA_DID.Properties.Resources.minimizar_signo;
-            this.btnMin.Location = new System.Drawing.Point(538, 8);
+            this.btnMin.Location = new System.Drawing.Point(530, 8);
             this.btnMin.Name = "btnMin";
             this.btnMin.Size = new System.Drawing.Size(19, 16);
             this.btnMin.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
